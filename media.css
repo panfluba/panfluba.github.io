@@ -1,0 +1,47 @@
+@media only screen and (max-width: 900px) {
+    #header_inner_container {
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .main_content {
+        flex-direction: column;
+    }
+    .img {
+        min-width: 0px !important;
+    }
+    #footer_inner_container_grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* ----------------------------------------------------------------------- */
+
+@media only screen and (max-width: 650px) {
+    nav {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+        font-size: 25px;
+        border-top: 1px solid ;
+        background-color: rgb(220, 220, 220);
+    }
+
+    nav span{
+        margin: 1rem auto;
+    }
+
+    #header_search{
+        flex-direction: column;
+        margin: 0 20%  ;
+        padding: 0 auto; 
+    }
+    #logo_container span{
+        font-size: 40px;
+        margin: 10px ;
+    }
+    #phone {
+        font-size: 18px;
+    }
+    #footer_inner_container_grid{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title> 99Gadgets - крупнейший магазин игровой техники и девайсов</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description"
+        content=" 99Gadgets - крупнейший магазин игровой техники и девайсов in Belarus. Отличное качество и приятная цена!" />
+
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+
+    <link rel="icon" type="image/x-icon" href="./images/logo16x16.ico">
+
+    <script>
+        window.onload= function (){
+            let catalog = document.getElementById('button-catalog');
+            catalog.onclick = function (){
+                if(catalog.classList.contains("active")){
+                    catalog.classList.remove("active");
+                }else{
+                    catalog.classList.add("active");
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- кнопка возврата наверх -->
+<a name="top"></a>
+<div id="yak"> <a href="#top"> <img src="images/up.png"> </a></div>
+    <header>
+        
+        <div id="header_inner_container">
+            <div id="logo_container">
+                <img src="./images/logo.jpg" alt="99Gadgets logo" id="logo">
+                <span> 99Gadgets </span>
+            </div>
+            
+            <div id="header_search">
+                <div id="catalog_search">
+                    <button type="button" id="button-catalog">
+                        <div class="burger-btn"><span> </span></div>
+                        <div class="catalog"> Catalog </div>
+                    </button>
+        
+                    <input type="text" placeholder="Поиск товаров" id="search_box">
+                </div>
+                
+                <div id="cart_fav">
+                    <div class="icon_container">
+                        <img src="images/like.png" alt="like">
+                        <span>Избранное</span>
+                    </div>
+                    <div class="icon_container">
+                        <img src="images/shopping-cart.png" alt="shopping-cart">
+                        <span>Корзина</span>
+                    </div>
+                </div>
+
+                <div id="phone">
+                    <span>+375 (029) 286-15-35</span>
+                    <span>+375 (029) 641-02-52</span>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <span>О нас</span>
+            <span>Магазины</span>
+            <span>Оплата</span>
+            <span>Доставка</span>
+            <span>Контакты</span>
+        </nav>
+
+    </header>
+    <main>
+
+        <div id="main_inner_container">
+            <div class="main_content">
+                <div class="img_comtainer">
+                    <img src="images/nvidia.jpg" alt="nvidia" class="img">
+                </div>
+                <div class="text">
+                    <span class="title"> Новые видеокарты уже в наличии </span>
+                    <span> Видеокарты GeForce RTX™ 30 на базе Ampere предлагают исключительную производительность в играх, стриминге и при обработке графики и видео. Ampere — это новая архитектура NVIDIA RTX второго поколения с новыми ядрами RT, тензорными ядрами и потоковыми мультипроцессорами, обеспечивающими максимально реалистичные эффекты трассировки лучей и передовые возможности на базе искусственного интеллекта. <a href="#"> Читать дальше </a> </span>
+                </div>
+            </div>
+            <div class="main_content">
+                <div class="img_comtainer">
+                    <img src="images/armchairs.jpeg" alt="armchairs" class="img">
+                </div>
+                <div class="text">
+                    <span class="title"> Обустроим рабочее место для вас | скидки до 40% </span>
+                    <span> Кресла DXRacer функциональные, качественные, отлично смотрятся и у них достаточно моделей, что бы удовлетворить потребности любого потребителя. Рассказываем, как не потеряться в этом многообразии и сделать правильный выбор. <a href="#"> Читать дальше </a></span>
+                </div>
+            </div>
+
+    </main>
+
+    <footer>
+
+    <div id="footer_inner_container_flex">
+        <di id="footer_inner_container_grid">
+            <span>Служба по работе с покупателями ЗАО «ЛЮБОВЬ» <br>
+                (по вопросам рассмотрения обращения покупателей о нарушении их прав):<br>
+                Тел.: +375 (029) 286-15-35. <br>
+                Электронная почта: 99Gadgets@gmail.by. <br>
+                Режим работы службы: с 9.00 до 21.00 ежедневно. <br></span>
+                
+            <span>Номера городских телефонов уполномоченных по защите прав потребителей:<br>
+                +375 (029) 286-15-35 – администрация Московского района г. Минска;<br>
+                +375 (029) 641-02-52 – главное управление торговли и услуг Мингорисполкома.<br></span>
+                
+            <span>Режим работы интернет-магазина: с 9.00 до 21.00 ежедневно.<br>
+                Заказы, которые оформлены в нерабочее время, принимаются в работу утром <br> следующего за оформлением дня.<br></span>
+        <div id="media_container">
+            <img src="images/twitter.png" alt="twitter">
+            <img src="images/instagram.png" alt="instagram">
+            <img src="images/vk.png" alt="vk"> 
+            <img src="images/facebook.png" alt="facebook">
+        </div>
+        </div>
+                
+        </div>
+    </footer>
+
+    <!-- <div id="vsplivashka">
+
+    </div> -->
+</body>
+
